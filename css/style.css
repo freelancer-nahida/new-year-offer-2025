@@ -150,3 +150,61 @@
     border-radius: 10px;
 
 }
+
+/* style best-offer */
+
+.best-offer {
+
+    display: flex;
+    gap: 100px;
+    margin: 100px;
+}
+
+.best-offer-content {
+    /* text-align: center;
+    align-items: center; */
+
+
+}
+
+.best-offer-title {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FF0000
+}
+
+.best-offer-subtitle {
+
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+
+
+}
+
+.best-offer-description {
+    font-family: Inter;
+    font-size: 18px;
+    color: #504e53;
+
+
+
+}
+
+.best-offer-date {
+
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: bold;
+    color: #FF0000;
+
+}
+
+.best-offer-img {
+
+    padding: 20px;
+    border-radius: 50%;
+
+    border: 10px solid #FF0000;
+}
