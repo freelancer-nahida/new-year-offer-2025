@@ -77,9 +77,11 @@
 /* style welcome container */
 
 .welcome {
-    background-image: url("../images/Vector.png"), url("../images/Group\70.png");
+    display: flex;
+    gap: 50px;
+    background-image: url("../images/Vector.png");
     background-repeat: no-repeat;
-    background-position: center, right bottom;
+    background-position: center;
     margin: 0px 100px 100px 100px;
     padding: 120px;
     border-radius: 15px;
@@ -87,10 +89,10 @@
 
 }
 
-.welcome-container {
+/* .welcome-container {
     width: 650px;
 
-}
+} */
 
 .welcome-title {
     font-family: Merriweather;
@@ -244,10 +246,10 @@
 
 .discount {
 
-    height: ;
+    display: flex;
     background-image: url("../images/Rectangle\ 2.png"), url("../images/Group\ 44.png");
     background-repeat: no-repeat;
-    background-position: right bottom, top right, left bottom;
-
+    background-position: right bottom, top right;
+    border-radius: 15px;
 
 }
